@@ -17,7 +17,7 @@ if(filter_has_var(INPUT_POST , 'submit')){
         $msgClass = 'alert-danger';
        } else {
             // Passed
-            $toEmail = 'chris-harvey94@outlook.com';
+            $toEmail = 'email@gmail.com';
             $subject = 'Contact Request From ' .$name;
             $body = '<h2>Contact Request</h2>
                     <h4>Name</h4><p>'.$name.'</p>
